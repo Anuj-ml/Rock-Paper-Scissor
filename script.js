@@ -44,5 +44,8 @@ const getWinner = () => {
         console.log("Comp Won");
         compScore.innerText++;
     }
-    alert(`Your Choice : ${userChoice}\nComp Choice : ${comp}`)
+    
+    setTimeout(() => {
+        alert(`Your Choice : ${userChoice}\nComp Choice : ${comp}`);
+    }, 0);
 }
